@@ -12,7 +12,7 @@ const Home = () => {
         <h1 className="text-richblack-5 font-semibold text-4xl">Hello there!, <span className='text-sky-400'>I'm Tarun</span></h1>
 
         <p className="text-[1.125rem] mt-4 leading-[1.625rem]">
-          <span className="text-richblack-100 text-4xl">  A passionate <span className='text-sky-400'>frontend developer</span> dedicated to crafting beautiful and user-friendly web experiences.</span>
+          <span className="text-richblack-100 text-4xl">  A passionate <span className='text-sky-400'>full stack developer</span> dedicated to crafting beautiful and user-friendly web experiences.</span>
         </p>
 
 
