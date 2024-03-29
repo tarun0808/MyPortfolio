@@ -21,12 +21,20 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(18, 16, 16);
 }
 
 .App-link {
   color: #61dafb;
 }
+
+/* In App.css */
+.background {
+  background-image: url('./assets/bg.jpg'); /* Replace 'background.jpg' with the path to your background image file */
+  background-size: cover;
+  background-position: center;
+}
+
 
 @keyframes App-logo-spin {
   from {
