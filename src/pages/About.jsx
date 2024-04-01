@@ -1,10 +1,8 @@
 import React from 'react'
-import frame from '../assets/frame.jpg';
-import image from '../assets/image.png';
 
 const About = () => {
   return (
-    <div className="flex flex-col items-center mx-8 justify-center h-screen shadow-lg border border-gray-800  rounded-lg">
+    <div id="about" className="flex flex-col items-center mx-8 justify-center h-screen shadow-lg border border-gray-800  rounded-lg">
     <h1 className="text-4xl font-bold mb-16">About</h1>
     <p className="text-2xl text-center mx-8 px-8">
       I am in pre-final year of my Btech from ABES Engineering College. My journey in the world of programming began with Java, where I honed my problem-solving skills.

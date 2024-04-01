@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaInstagram, FaTwitter } from 'react-icons/fa';
 
 const Contact = () => {
   return (
-    <div className="bg- flex flex-col text-white m-8 py-8 h-screen relative shadow-lg border border-gray-800  rounded-lg">
+    <div id='contact' className="bg- flex flex-col text-white m-8 py-8 h-screen relative shadow-lg border border-gray-800  rounded-lg">
           <h1 className="text-4xl font-bold mb-16">Contact</h1>
 
       <div className="container mx-auto flex justify-center items-left">
