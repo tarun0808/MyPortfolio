@@ -7,14 +7,14 @@ const Home = () => {
   
   return (
     <div id='home'>
-      <div className="flex w-11/12 max-w-[1160px] py-12 mx-auto my-4 gap-y-0 gap-x-12 justify-between">
+      <div className=" flex flex-col text-center md:flex-row flex md:space-x-8 mt-4 md:mt-0 md:text-sm md:font-medium w-11/12 max-w-[1160px] py-12 mx-auto my-4 gap-y-0 gap-x-12 justify-between">
         <div className="w-11/12 max-w-[450px] mx-0 text-white pt-20">
           <h1 className="text-richblack-5 font-semibold text-4xl">Hello there!, <span className='text-sky-400'>I'm Tarun</span></h1>
           <p className="text-[1.125rem] mt-4 leading-[1.625rem]">
             <span className="text-richblack-100 text-4xl">  A passionate <span className='text-sky-400'>full stack developer</span> dedicated to crafting beautiful and user-friendly web experiences.</span>
           </p>
         </div>
-        <div className="relative w-11/12 max-w-[450px]">
+        <div className="hidden md:block w-full md:w-auto relative w-11/12 max-w-[450px]">
           <img
             src={frame}
             alt="patter"
